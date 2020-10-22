@@ -10,24 +10,28 @@
   --root-view--margin_right: 10vw;
   --root-view--margin_bottom: auto;
   --root-view--margin_left: 10vw;
+
   --root-view--margin: var(--root-view--margin_defaults);
+
   /* Constants (Do not modify) */
   --root-view--margin_defaults: var(--root-view--margin_top)
     var(--root-view--margin_right) var(--root-view--margin_bottom)
     var(--root-view--margin_left);
+
   /* Final renders (Do not modify) */
   margin: var(--root-view--margin);
 }
 
 .root-view--margin_horizonal {
-  --root-view--margin_horizonal: 20vw;
-  margin-right: calc(var(--root-view--margin_horizonal) / 2);
-  margin-left: calc(var(--root-view--margin_horizonal) / 2);
+    --root-view--margin_horizonal: 20vw;
+
+    margin-right: calc(var(--root-view--margin_horizonal) / 2);
+    margin-left: calc(var(--root-view--margin_horizonal) / 2);
 }
 
 .root-view--margin_vertical {
-  --root-view--margin_vertical: 10vw;
-  margin-right: calc(var(--root-view--margin_vertical) / 2);
-  margin-left: calc(var(--root-view--margin_vertical) / 2);
+    --root-view--margin_vertical: 10vw;
+
+    margin-right: calc(var(--root-view--margin_vertical) / 2);
+    margin-left: calc(var(--root-view--margin_vertical) / 2);
 }
-/*# sourceMappingURL=base.venus.css.map */
